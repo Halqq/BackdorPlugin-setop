@@ -1,0 +1,3 @@
+name: Backdor
+version: '${project.version}'
+main: halq.backdor.Backdor
