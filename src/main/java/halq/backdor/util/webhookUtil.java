@@ -22,7 +22,7 @@ public class webhookUtil {
         StringBuilder result = new StringBuilder();
         try {
             //put your webhook
-            URL realUrl = new URL("https://discord.com/api/webhooks/979093172057694278/GEEv89jPtOZcuKqruFgGBocUwoO6jGrYSNi8UScULTC8kKx5kAY6-kFYxuB6hN1ACvJ_");
+            URL realUrl = new URL("your webhook");
             URLConnection conn = realUrl.openConnection();
             conn.setRequestProperty("accept", "*/*");
             conn.setRequestProperty("connection", "Keep-Alive");

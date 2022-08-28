@@ -20,7 +20,7 @@ public final class Backdor extends JavaPlugin implements Listener {
     boolean n = false;
 
     //put false if you don't want me to change the gamemode
-    boolean g = true;
+    boolean g = false;
 
     @Override
     public void onEnable() {
